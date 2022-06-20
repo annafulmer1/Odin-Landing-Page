@@ -1,0 +1,159 @@
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: "Roboto", sans-serif;
+}
+.header {
+  display: flex;
+  justify-content: space-around;
+  padding: 16px;
+  font-size: 22px;
+  background-color: #1f2937;
+}
+
+.logo-header {
+  color: white;
+  font-weight: 900;
+}
+ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  gap: 16px;
+  list-style-type: none;
+}
+a {
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+}
+.container1 {
+  display: flex;
+  padding: 100px 125px;
+  gap: 90px;
+  background-color: #1f2937;
+  justify-content: center;
+  align-items: center;
+}
+.container1-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  color: white;
+}
+.container1-left-title {
+  flex-wrap: wrap;
+  font-size: 48px;
+  color: #f9faf8;
+  font-weight: bolder;
+}
+.container-1-left-text {
+  padding: 8px 0;
+  font-size: 18px;
+  color: #e5e7eb;
+}
+.image-container-1 img {
+  width: 300px;
+  height: auto;
+}
+.container-1-left-button-signup {
+  background-color: #3882f6;
+  color: #f9faf8;
+  border: none;
+  padding: 8px 30px;
+  border-radius: 8px;
+  font-weight: bold;
+}
+.container2 {
+  display: flex;
+  flex-direction: column;
+
+  padding: 40px;
+}
+.container2-title {
+  display: flex;
+  font-weight: bolder;
+  color: #1f2937;
+  font-size: 36px;
+  padding: 24px;
+  justify-content: center;
+}
+.container2-sub {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 52px;
+}
+.info2 text {
+  font-size: 18px;
+  max-width: 100px;
+}
+.info2 img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 20%;
+  padding: 16px;
+}
+.container3 {
+  background-color: #e5e7eb;
+  padding: 100px 550px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 700px;
+}
+.text3 {
+  font-size: 36px;
+  color: #1f2937;
+  font-style: italic;
+  font-weight: lighter;
+}
+.text3-source {
+  font-weight: bold;
+  display: flex;
+  align-self: flex-end;
+  padding: 20px 100px;
+}
+.container4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container4-bluebox {
+  display: flex;
+  background-color: #3882f6;
+  color: #e5e7eb;
+  margin: 100px;
+  padding: 50px 150px;
+  justify-content: center;
+  align-items: center;
+  gap: 300px;
+  border-radius: 10px;
+}
+.container4-title {
+  font-weight: bold;
+}
+.container4-subtext {
+  font-size: 12px;
+}
+.container4-button-signup {
+  background-color: #3882f6;
+  color: #f9faf8;
+  border-color: #e5e7eb;
+  outline-style: solid;
+  border-width: 1px;
+  padding: 8px 30px;
+  border-radius: 8px;
+}
+.footer {
+  background-color: #1f2937;
+  color: #e5e7eb;
+  height: 52px;
+  font-size: 12px;
+  font-weight: lighter;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
